@@ -21,7 +21,24 @@ public class Assignmentday4 {
 //        String a=sc.next();
 //        System.out.println("happy birthday"+" "+a);
 
-//
+
+// Write a program to input principal, time, and rate (P, T, R) from the user and find Simple Interest.
+//Scanner sc=new Scanner(System.in);
+//double p=sc.nextDouble();
+//double t=sc.nextDouble();
+//double r=sc.nextDouble();
+//double a=(p*r*t)/100;
+//System.out.println(a);
+
+// Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
+//Scanner sc=new Scanner(System.in);
+//int a= sc.nextInt();
+//int b = sc.nextInt();
+//if(a>b){
+//    System.out.println(a+b);
+//} else if (b>a) {
+//    System.out.println(a*b);
+//}
 
 
 
@@ -29,16 +46,4 @@ public class Assignmentday4 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-    }
-}
+    }}
