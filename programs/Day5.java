@@ -70,6 +70,37 @@ public class Day5 {
 //        CALCUlATOR PROGRAM
         Scanner sc=new Scanner(System.in);
 
+        while(true){
+            int ans=0;
+            System.out.println("Enter The Operator");
+            char ch=sc.next().trim().charAt(0);
+            if(ch=='+'||ch=='-'||ch=='*'||ch=='/'){
+                System.out.println("ENter the NUmber 1 aND 2");
+                int num1= sc.nextInt();
+                int num2= sc.nextInt();
+                if(ch=='+'){
+                    ans=num1+num2;
+                }
+                if(ch=='-'){
+                    ans=num1-num2;
+                }
+                if (ch=='*'){
+                    ans=num1*num2;
+                }
+                if (ch=='/'){
+                    ans=num1/num2;
+                }
+            } else if (ch=='x'||ch=='X') {
+                break;
+
+            }else {
+                System.out.println("Invalid Input");
+            }
+            System.out.println(ans);
+
+
+        }
+
 
 
 
