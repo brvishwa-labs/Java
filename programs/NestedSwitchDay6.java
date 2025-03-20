@@ -6,6 +6,7 @@ public class NestedSwitchDay6 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         String dept=sc.next();
+
         String mentor=sc.next();
         switch(dept){
             case "cse":
